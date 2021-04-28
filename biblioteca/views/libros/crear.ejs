@@ -1,0 +1,34 @@
+<% include ../layouts/cabecera.ejs %> 
+<div class="card mt-2">
+    <div class="card-header">
+        Formulario de captura de libros
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Datos del libro</h5>
+        <p class="card-text">
+            <form action="/libros" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input id="my-input" class="form-control" type="text" name="nombre">
+                </div>
+            
+                <div class="form-group">
+                    <label for="archivo">Imagen</label>
+                    <input id="my-input"
+                    
+                    class="form-control-file" type="file" name="archivo">
+                </div>
+            
+                <button class="btn btn-success" type="submit">Guardar</button>
+                <a href="/libros" class="btn btn-primary">Cancelar</a>
+            </form>
+
+        </p>
+    </div>
+</div>
+
+<% include ../layouts/pie.ejs %> 
+
+<script>
+    document.title= 'Registrar libro'
+</script>
