@@ -1,6 +1,6 @@
 # Crud de libros en nodejs
-Realizado en base al video tutorial de Develoteca en youtube
-[Enlace][https://www.youtube.com/watch?v=ZdalwuQ__Xk]
+Realizado en base al video tutorial de Develoteca en youtube, usando el framework Expressjs.
+[Enlace](https://www.youtube.com/watch?v=ZdalwuQ__Xk)
 
 # Herramientas
 - Nodejs v14.16.1
